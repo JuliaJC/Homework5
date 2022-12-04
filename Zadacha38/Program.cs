@@ -44,3 +44,33 @@ Console.Write(array[i] + " ");
 }
 Console.WriteLine();
 }
+
+/*int size = ReadInt("Введите размер массива: ");
+double[] numbers = new double[size];
+FillArrayRandomNumbers(numbers);
+WriteArray(numbers);
+
+
+void FillArrayRandomNumbers(double[] array)
+{
+for(int i = 0; i < array.Length; i++)
+{
+array[i] = new Random().NextDouble() * 100;
+}
+}
+
+void WriteArray(double[] array)
+{
+for(int i = 0; i < array.Length; i++)
+{
+Console.Write(array[i] + " ");
+}
+Console.WriteLine();
+}
+
+int ReadInt(string message)
+{
+Console.Write(message);
+return Convert.ToInt32(Console.ReadLine());
+}
+*/
